@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sidisi Graveyard Counter</string>
+    <string name="minusOne">-1</string>
+    <string name="plusOne">+1</string>
+.</resources>
