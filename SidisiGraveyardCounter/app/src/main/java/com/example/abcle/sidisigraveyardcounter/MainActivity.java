@@ -105,22 +105,16 @@ public class MainActivity extends AppCompatActivity
 
 	private void updateOtherCount()
 	{
-		Integer currentTotal = new Integer(graveyard.getCurrentOtherTotal());
-		String displayText = currentTotal.toString();
-		otherCount.setText(displayText);
+		otherCount.setText(String.valueOf(graveyard.getCurrentOtherTotal()));
 	}
 
 	private void updateLandsCount()
 	{
-		Integer currentTotal = new Integer(graveyard.getCurrentLandTotal());
-		String displayText = currentTotal.toString();
-		landCount.setText(displayText);
+		landCount.setText(String.valueOf(graveyard.getCurrentLandTotal()));
 	}
 
 	public void updateCreatureCount()
 	{
-		Integer currentTotal = new Integer(graveyard.getCurrentCreatureTotal());
-		String displayText = currentTotal.toString();
-		creatureCount.setText(displayText);
+		creatureCount.setText(String.valueOf(graveyard.getCurrentCreatureTotal()));
 	}
 }
